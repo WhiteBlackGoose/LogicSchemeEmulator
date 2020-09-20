@@ -1,0 +1,18 @@
+show;
+arrow 1 Orange left % 13 50 3 5;
+text 10 hcenter/3 vcenter textwidth textheight White Black 36 Black Панель инструментов;
+sleep 3000;
+clear;
+text 10 hcenter-textwidth/2 vcenter-textheight/2-textheight*2 textwidth textheight White Black 36 Black Используйте правую кнопку мыши для перемещения по полю;
+sleep 1000;
+text 10 hcenter-textwidth/2 vcenter-textheight/2 textwidth textheight White Black 36 Black Используйте левую кнопку мыши для установки элемента;
+sleep 1000;
+text 10 hcenter-textwidth/2 vcenter-textheight/2+textheight*2 textwidth textheight White Black 36 Black Используйте Shift+левая кнопка в режиме провода чтобы тянуть его;
+sleep 3000;
+clear;
+arrow 1 Orange right % 85 50 5 3;
+text 10 hcenter*2-hcenter/3 vcenter-8 textwidth textheight White Black 36 Black Масштаб;
+sleep 2000;
+text 10 hcenter/2.8 vcenter/8+8 textwidth textheight White Black 36 Black Пометка (для "краски" элементов);
+arrow 1 Orange left % 13 8 4 3;
+sleep 2000;
